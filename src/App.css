@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.navbar_wrapper a{
+  padding-left:30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +30,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.btnDelete{
+  background-color : red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
